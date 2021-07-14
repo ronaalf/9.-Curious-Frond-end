@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+body, html {
+    margin: 0;
+    font-family:'Rajdhani', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.principal-pic {
+    background-image: url("../signs/Group 1.svg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.dblock {
+    display: block;
+}
+.dnone {
+    display: none;
+}
+/*//HEADER///////////////////////*/
+.header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    box-sizing: content-box;
+    line-height: normal;
+    background-color: rgba(36, 35, 35, 0.801);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.596);
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.logo{
+    display:inline;
+    margin-left: 17px;
+    text-decoration: solid overline rgb(152, 189, 145);
+    color: #eeeeee ;
+    font-size: 40px;
+    font-weight: 9000;
+    text-shadow:3px 3px 3px black;
+    letter-spacing: 0.4em;
+    padding: 10px 5px 0px;
+}
+.logo:hover {
+    text-decoration: solid overline #ff7141c9;
+    transition: all 0.5s ease-in;
+}
+.btn-menu{
+    float: right;
+    height: 2.5em;
+    margin-top: 3px;
+    margin-right: 7px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+.btn-menu:hover {
+    height: 2.9em;
+    margin-right: 0px;
+    transition: all 0.5s ease-in;
+}
+/*//SECTION-CONTENT///////////////////////*/
+.principal-container{
+    margin-top: 36px;
+    margin-left: 137px;
+    display: grid;
+    grid-template-columns: 48% 52%;
+    /*background-color: rgba(255, 0, 0, 0.315);*/
+}
+.form {
+    width: 300px;
+    position: sticky;
+    top: 29.5%;/**/
+    background-image: linear-gradient(rgba(20, 20, 20, 0.97),rgba(3, 20, 20, 0.97));
+    padding: 20px;
+    color:#eeeeee;
+    border: solid 1px rgba(128, 128, 128, 0.473);
+    margin: auto;
+    /*outline: 3px double rgb(0, 0, 0);*/
+    box-shadow: -4px 3px 7px rgb(7, 7, 7);
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+img.avatar{ 
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.774);
+}
+input[type=text], select, [type=password], textarea {
+    width: 85%;
+    background-color: #000000;
+    color: #eeeeee;
+    padding: 12px 20px;
+    border: solid 1px rgb(37, 37, 37);
+    margin: 8px 0;
+    letter-spacing: 0.5em;
+}
+.selects {
+    width: 99%;
+    letter-spacing: 0.5em;
+}
+#createuserbtn {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 1px;
+    cursor: pointer;
+    color: #060607;
+    letter-spacing: 0.5em;
+    background-image: linear-gradient(rgba(29, 202, 144, 0.342),rgb(29, 202, 144));
+}
+#createuserbtn:hover{
+    background-image: linear-gradient(rgba(29, 202, 144, 0.342),rgb(8, 136, 93));
+}
+.message {
+    margin: 15px 0 0;
+    color: #eeeeee;
+    font-size: 13px;
+}
+.message a {
+    color: #ff6f41;
+    text-decoration: none;
+    letter-spacing: 0.5em;
+}
+/*/below about principal text//////////////////////////////////////*/
+.copiedtext{
+    list-style-type: none;
+    /*background-color: rgba(98, 0, 255, 0.315);*/
+}
+.principal-text {
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-variant: small-caps;
+    color: #292417;  
+}
